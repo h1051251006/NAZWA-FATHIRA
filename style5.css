@@ -1,0 +1,148 @@
+
+:root{
+    --brown: #b6924a;
+    --yellow-color: #ffa10a;
+    --text-color: #121212;
+    --container-color: #efe8e0;
+    --red: #624721;
+    --bg-color: #fff;
+    --text-alter-color: #94908e;
+    --font-family-1: "Mitr", sans-serif;
+    --font-family-2: "Righteous", sans-serif;
+}
+
+body{
+    color:var(--text-color);
+    background: var(--bg-color);
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins";
+    overflow: hidden;
+    height: 100vh;
+    background: var(--text-alter-color);
+  }
+  h1 {
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin: 0;
+    margin-bottom: 15px;
+    color: #fff;
+  }
+  a {
+    color: var(--yellow-color);
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+    transition: 0, 3s ease-in-out;
+  }
+  a:hover {
+    color: var(--text-alter-color);
+  }
+  .content {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: left;
+  }
+  .content .checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .content input {
+    accent-color: #fff;
+    width: 12px;
+    height: 12px;
+  }
+  .content label {
+    font-size: 14px;
+    user-select: none;
+    padding-left: 5px;
+  }
+  button {
+    display: flex;
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid var(--yellow-color);
+    background-color: var(--yellow-color);
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 12px 80px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    transition: 0, 3s ease-in-out;
+  }
+  button:hover {
+    letter-spacing: 2px;
+  }
+  button:active {
+    transform: scale(0, 95);
+  }
+  button:focus {
+    outline: none;
+  }
+  form {
+    background-color: var(--red);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 50px;
+    height: 100%;
+    text-align: center;
+  }
+  input {
+    background-color: #eee;
+    border-radius: 10px;
+    border: none;
+    padding: 12px 15px;
+    margin: 8px 0;
+    width: 100%;
+  }
+  .container {
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .form-container {
+    top: 10px;
+    height: 100%;
+    transition: all 0.6s ease-in-out;
+    background-color: #efe8e0;
+  }
+  .social-container {
+    margin: 20px 0;
+  }
+  .social-container a {
+    border: 1px solid var(--yellow-color);
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+    transition: 0, 3s ease-in-out;
+  }
+  .social-container a:hover {
+    border: 1px solid var(--text-alter-color);
+  }
+  p {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+  color:#fff;
+  }
